@@ -22,11 +22,11 @@ export const metadata = {
   openGraph: {
     title: '3Diamond Institute | Bangun Skill Art & Tech, Cetak Income',
     description: 'Platform belajar terarah untuk pemula. Ubah passion di bidang Art, Design, dan Tech menjadi skill bernilai tinggi dan hasilkan income nyata.',
-    url: 'https://www.3diamond.id',
+    url: 'https://3diamond.solusilokal.id/',
     siteName: '3Diamond Institute',
     images: [
       {
-        url: 'https://www.3diamond.id/og-image.jpg', // Ganti dengan URL OG Image asli Anda saat deploy
+        url: 'https://3diamond.solusilokal.id/og-image.jpg', // Ganti dengan URL OG Image asli Anda saat deploy
         width: 1200,
         height: 630,
         alt: '3Diamond Institute Preview',
@@ -39,11 +39,11 @@ export const metadata = {
     card: 'summary_large_image',
     title: '3Diamond Institute | Bangun Skill Art & Tech, Cetak Income',
     description: 'Ubah passion di bidang Art, Design, dan Tech menjadi skill bernilai tinggi.',
-    images: ['https://www.3diamond.id/og-image.jpg'],
+    images: ['https://3diamond.solusilokal.id/og-image.jpg'],
   },
   icons: {
     icon: '/favicon.ico', // Tempatkan file favicon.ico di folder public/
-    shortcut: '/favicon-16x16.png',
+    shortcut: '/favicon.ico',
     apple: '/apple-touch-icon.png',
   },
 };

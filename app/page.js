@@ -256,7 +256,7 @@ function Hero() {
   return (
     <section className="relative pt-28 pb-16 md:pt-40 md:pb-32 overflow-hidden flex items-center min-h-[85vh] md:min-h-[90vh]">
       <div className="absolute inset-0 z-0">
-        <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=2564&auto=format&fit=crop" alt="Abstract Art Background" className="w-full h-full object-cover opacity-10 mix-blend-luminosity pointer-events-none" />
+        <img src="/image/hero.jpg" alt="Abstract Art Background" className="w-full h-full object-cover opacity-10 mix-blend-luminosity pointer-events-none" />
         <div className="absolute inset-0 bg-gradient-to-b from-[#0a0303] via-[#0a0303]/80 to-[#0a0303]"></div><div className="absolute inset-0 bg-gradient-to-r from-[#0a0303] via-[#0a0303]/90 to-transparent"></div>
       </div>
       <div className="absolute top-1/2 left-1/4 -translate-x-1/2 -translate-y-1/2 w-[300px] md:w-[600px] h-[300px] md:h-[600px] bg-[#611A1D]/20 rounded-full blur-[100px] md:blur-[120px] -z-10 pointer-events-none"></div>
@@ -268,7 +268,7 @@ function Hero() {
               Bangun Skill Kreatif dari Nol sampai <br className="hidden lg:block"/><span className="text-transparent bg-clip-text bg-gradient-to-r from-[#D4AF37] to-[#F3E5AB]">Siap Digunakan.</span>
             </h1>
             <p className="mt-4 text-base sm:text-lg md:text-xl text-zinc-300 max-w-xl mx-auto lg:mx-0 mb-8 md:mb-10 leading-relaxed">
-              Program belajar Art, Design, dan Tech yang membimbing kamu dari dasar hingga punya arah jelas — untuk pengembangan diri, persiapan kuliah, atau menghasilkan income.
+              Program belajar Art, Design, dan Tech yang membimbing kamu dari dasar hingga punya arah jelas untuk pengembangan diri, persiapan kuliah, atau menghasilkan income.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4 w-full sm:w-auto">
               <button onClick={() => openWA('Halo Admin 3Diamond, saya ingin konsultasi gratis mengenai arah belajar saya.')} className="w-full sm:w-auto bg-[#D4AF37] text-[#2a0b0d] px-8 py-3.5 md:py-4 rounded-full font-bold text-base md:text-lg hover:bg-[#F3E5AB] transition-all transform hover:-translate-y-1 shadow-[0_10px_40px_-10px_rgba(212,175,55,0.5)]">Konsultasi Gratis</button>
@@ -278,7 +278,7 @@ function Hero() {
           <div className="hidden lg:block relative">
             <div className="relative rounded-3xl overflow-hidden border border-[#611A1D]/50 shadow-[0_0_50px_rgba(97,26,29,0.3)] transform rotate-2 hover:rotate-0 transition-transform duration-700">
               <div className="absolute inset-0 bg-gradient-to-tr from-[#611A1D]/40 to-transparent z-10 mix-blend-overlay"></div>
-              <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1000&auto=format&fit=crop" alt="Creative Digital Art" className="w-full h-[500px] object-cover grayscale-[20%] hover:grayscale-0 transition-all duration-700 scale-105 hover:scale-100" />
+              <img src="/image/hero.jpg" alt="Creative Digital Art" className="w-full h-[500px] object-cover grayscale-[20%] hover:grayscale-0 transition-all duration-700 scale-105 hover:scale-100" />
               <div className="absolute bottom-6 left-6 z-20 bg-[#0a0303]/80 backdrop-blur-md border border-[#D4AF37]/30 p-4 rounded-2xl shadow-xl flex items-center gap-4 animate-bounce" style={{ animationDuration: '3s' }}>
                 <div className="w-12 h-12 rounded-full bg-gradient-to-br from-[#611A1D] to-[#2a0b0d] flex items-center justify-center border border-[#D4AF37]/50"><Target className="w-6 h-6 text-[#D4AF37]" /></div>
                 <div><div className="text-sm font-bold text-white">Arah yang Jelas</div><div className="text-xs text-[#D4AF37]">Untuk Masa Depan</div></div>
@@ -408,7 +408,7 @@ function OutcomeSection() {
   const outcomes = ["Kemampuan yang berkembang secara bertahap", "Hasil karya yang bisa dibanggakan", "Pemahaman yang lebih terarah", "Kepercayaan diri dalam kemampuan sendiri"];
   return (
     <section className="py-16 md:py-24 bg-[#1a080a] relative overflow-hidden border-y border-[#3a1013]">
-      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1558655146-d09347e92766?q=80&w=1200&auto=format&fit=crop')] bg-cover bg-fixed opacity-5 mix-blend-screen"></div>
+      <div className="absolute inset-0 bg-[url('/image/hero.jpg')] bg-cover bg-fixed opacity-5 mix-blend-screen"></div>
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10"><div className="bg-[#0a0303]/80 backdrop-blur-md border border-[#D4AF37]/30 p-6 md:p-12 rounded-3xl text-center"><h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-[#D4AF37] mb-6 md:mb-8">Yang akan kamu dapatkan:</h2><div className="grid sm:grid-cols-2 gap-4 md:gap-6 text-left">{outcomes.map((o, i) => (<div key={i} className="flex items-center gap-3 md:gap-4 bg-[#140506] border border-[#3a1013] p-4 rounded-xl"><CheckCircle className="w-5 h-5 md:w-6 md:h-6 text-green-500 shrink-0" /><span className="font-medium text-sm md:text-base text-white">{o}</span></div>))}</div></div></div>
     </section>
   );

@@ -17,11 +17,11 @@ const geistMono = Geist_Mono({
 // ==========================================
 export const metadata = {
   title: '3Diamond Institute | Bangun Skill Art & Tech, Cetak Income',
-  description: 'Platform belajar terarah untuk pemula. Ubah passion di bidang Art, Design, dan Tech menjadi skill bernilai tinggi dan hasilkan income nyata.',
+  description: 'Program belajar terarah untuk pemula. Ubah passion di bidang Art, Design, dan Tech menjadi skill bernilai tinggi.',
   keywords: 'kursus ui ux, bootcamp web developer, belajar desain grafis, figma tutorial, cara cari klien freelance, 3diamond institute, solusilokal',
   openGraph: {
     title: '3Diamond Institute | Bangun Skill Art & Tech, Cetak Income',
-    description: 'Platform belajar terarah untuk pemula. Ubah passion di bidang Art, Design, dan Tech menjadi skill bernilai tinggi dan hasilkan income nyata.',
+    description: 'Program belajar terarah untuk pemula. Ubah passion di bidang Art, Design, dan Tech menjadi skill bernilai tinggi.',
     url: 'https://3diamond.solusilokal.id/',
     siteName: '3Diamond Institute',
     images: [

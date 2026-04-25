@@ -769,7 +769,7 @@ function ProgramCreativeKids({ setRoute }) {
             <p className="text-base md:text-lg text-zinc-300 mb-6 px-2">Program tersedia dalam beberapa pilihan, menyesuaikan kebutuhan dan tingkat pembelajaran.</p>
             <div className="bg-[#1a080a] border border-[#D4AF37]/30 p-6 md:p-8 rounded-3xl inline-block mb-6 md:mb-8 shadow-lg">
                <p className="text-zinc-400 mb-1 md:mb-2 text-sm md:text-base font-medium">Mulai dari</p>
-               <h3 className="text-2xl md:text-4xl font-bold text-[#D4AF37]">100rb – 250rb</h3>
+               <h3 className="text-2xl md:text-4xl font-bold text-[#D4AF37]">150rb</h3>
             </div>
             <p className="text-zinc-400 mb-6 md:mb-8 text-sm md:text-base px-2">Silakan konsultasi untuk mendapatkan rekomendasi program yang paling sesuai.</p>
             <button onClick={() => openWA('Halo Admin 3Diamond, saya mau tanya detail investasi program *Creative Kids*.')} className="w-full sm:w-auto bg-[#D4AF37] text-[#2a0b0d] px-8 md:px-10 py-3.5 md:py-4 rounded-full font-bold text-base md:text-lg hover:bg-[#F3E5AB] transition-all transform hover:scale-105 shadow-[0_0_30px_rgba(212,175,55,0.3)]">
@@ -858,7 +858,7 @@ function ProgramPersiapanDKV({ setRoute }) {
             <p className="text-base md:text-lg text-zinc-300 mb-6 px-2">Program tersedia dalam beberapa pilihan, menyesuaikan kebutuhan dan tingkat persiapanmu.</p>
             <div className="bg-[#1a080a] border border-[#D4AF37]/30 p-6 md:p-8 rounded-3xl inline-block mb-6 md:mb-8 shadow-lg">
                <p className="text-zinc-400 mb-1 md:mb-2 text-sm md:text-base font-medium">Mulai dari</p>
-               <h3 className="text-2xl md:text-4xl font-bold text-[#D4AF37]">300rb – 800rb</h3>
+               <h3 className="text-2xl md:text-4xl font-bold text-[#D4AF37]">500rb</h3>
             </div>
             <p className="text-zinc-400 mb-6 md:mb-8 text-sm md:text-base px-2">Silakan konsultasi untuk mendapatkan rekomendasi program dan jadwal yang paling sesuai.</p>
             <button onClick={() => openWA('Halo Admin 3Diamond, saya mau tanya detail investasi program *Persiapan DKV*.')} className="w-full sm:w-auto bg-[#D4AF37] text-[#2a0b0d] px-8 md:px-10 py-3.5 md:py-4 rounded-full font-bold text-base md:text-lg hover:bg-[#F3E5AB] transition-all transform hover:scale-105 shadow-[0_0_30px_rgba(212,175,55,0.3)]">
@@ -957,7 +957,7 @@ function ProgramSkillDigital({ setRoute }) {
               <div className="bg-[#1a080a] border border-[#D4AF37]/30 p-6 md:p-8 rounded-3xl flex flex-col justify-center shadow-lg">
                  <p className="text-zinc-400 mb-1 md:mb-2 text-sm md:text-base font-medium">Kelas Reguler / Bootcamp</p>
                  <p className="text-xs md:text-sm text-zinc-500 mb-1 md:mb-2">Mulai dari</p>
-                 <h3 className="text-2xl md:text-4xl font-bold text-[#D4AF37]">500k – 1.5jt+</h3>
+                 <h3 className="text-2xl md:text-4xl font-bold text-[#D4AF37]">1jt+</h3>
               </div>
               <div className="bg-gradient-to-br from-[#1a080a] to-[#2a0b0d] border border-[#D4AF37]/50 p-6 md:p-8 rounded-3xl flex flex-col justify-center shadow-[0_0_20px_rgba(212,175,55,0.15)]">
                  <p className="text-[#D4AF37] font-bold mb-2 md:mb-3 text-lg md:text-xl">Mentoring 1-on-1</p>

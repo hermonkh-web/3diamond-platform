@@ -256,7 +256,7 @@ function Hero() {
   return (
     <section className="relative pt-28 pb-16 md:pt-40 md:pb-32 overflow-hidden flex items-center min-h-[85vh] md:min-h-[90vh]">
       <div className="absolute inset-0 z-0">
-        <img src="/image/hero.jpg" alt="Abstract Art Background" className="w-full h-full object-cover opacity-10 mix-blend-luminosity pointer-events-none" />
+        <img src="/image/hero.png" alt="Abstract Art Background" className="w-full h-full object-cover opacity-10 mix-blend-luminosity pointer-events-none" />
         <div className="absolute inset-0 bg-gradient-to-b from-[#0a0303] via-[#0a0303]/80 to-[#0a0303]"></div><div className="absolute inset-0 bg-gradient-to-r from-[#0a0303] via-[#0a0303]/90 to-transparent"></div>
       </div>
       <div className="absolute top-1/2 left-1/4 -translate-x-1/2 -translate-y-1/2 w-[300px] md:w-[600px] h-[300px] md:h-[600px] bg-[#611A1D]/20 rounded-full blur-[100px] md:blur-[120px] -z-10 pointer-events-none"></div>

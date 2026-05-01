@@ -278,7 +278,7 @@ function Hero() {
           <div className="hidden lg:block relative">
             <div className="relative rounded-3xl overflow-hidden border border-[#611A1D]/50 shadow-[0_0_50px_rgba(97,26,29,0.3)] transform rotate-2 hover:rotate-0 transition-transform duration-700">
               <div className="absolute inset-0 bg-gradient-to-tr from-[#611A1D]/40 to-transparent z-10 mix-blend-overlay"></div>
-              <img src="/image/hero.jpg" alt="Creative Digital Art" className="w-full h-[500px] object-cover grayscale-[20%] hover:grayscale-0 transition-all duration-700 scale-105 hover:scale-100" />
+              <img src="/image/hero.png" alt="Creative Digital Art" className="w-full h-[500px] object-cover grayscale-[20%] hover:grayscale-0 transition-all duration-700 scale-105 hover:scale-100" />
               <div className="absolute bottom-6 left-6 z-20 bg-[#0a0303]/80 backdrop-blur-md border border-[#D4AF37]/30 p-4 rounded-2xl shadow-xl flex items-center gap-4 animate-bounce" style={{ animationDuration: '3s' }}>
                 <div className="w-12 h-12 rounded-full bg-gradient-to-br from-[#611A1D] to-[#2a0b0d] flex items-center justify-center border border-[#D4AF37]/50"><Target className="w-6 h-6 text-[#D4AF37]" /></div>
                 <div><div className="text-sm font-bold text-white">Arah yang Jelas</div><div className="text-xs text-[#D4AF37]">Untuk Masa Depan</div></div>
@@ -336,7 +336,7 @@ function SolutionSection() {
           </div>
           <div className="lg:w-1/2 w-full mt-8 lg:mt-0">
             <div className="aspect-square md:aspect-video lg:aspect-square rounded-3xl bg-[#0a0303] border border-[#611A1D] p-6 md:p-8 shadow-[0_0_50px_rgba(97,26,29,0.2)] flex flex-col justify-center relative overflow-hidden">
-               <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1542744094-3a31f272c490?q=80&w=800&auto=format&fit=crop')] bg-cover bg-center opacity-20 rounded-3xl mix-blend-luminosity"></div>
+               <div className="absolute inset-0 bg-[url('/image/image2.png?q=80&w=800&auto=format&fit=crop')] bg-cover bg-center opacity-20 rounded-3xl mix-blend-luminosity"></div>
                <div className="relative z-10 text-center px-4">
                   <div className="w-16 h-16 md:w-20 md:h-20 bg-gradient-to-br from-[#D4AF37] to-[#611A1D] rounded-2xl mx-auto flex items-center justify-center mb-6 transform rotate-3 shadow-lg border border-[#F3E5AB]/30"><Target className="w-8 h-8 md:w-10 md:h-10 text-[#0a0303]" /></div>
                   <h3 className="text-xl md:text-2xl font-bold text-white mb-2">Sistem Pembelajaran Adaptif</h3><p className="text-zinc-400 text-sm md:text-base">Pendampingan penuh menyesuaikan kecepatan dan tujuan akhirmu.</p>
@@ -408,7 +408,7 @@ function OutcomeSection() {
   const outcomes = ["Kemampuan yang berkembang secara bertahap", "Hasil karya yang bisa dibanggakan", "Pemahaman yang lebih terarah", "Kepercayaan diri dalam kemampuan sendiri"];
   return (
     <section className="py-16 md:py-24 bg-[#1a080a] relative overflow-hidden border-y border-[#3a1013]">
-      <div className="absolute inset-0 bg-[url('/image/hero.jpg')] bg-cover bg-fixed opacity-5 mix-blend-screen"></div>
+      <div className="absolute inset-0 bg-[url('/image/hero-z.jpg')] bg-cover bg-fixed opacity-5 mix-blend-screen"></div>
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10"><div className="bg-[#0a0303]/80 backdrop-blur-md border border-[#D4AF37]/30 p-6 md:p-12 rounded-3xl text-center"><h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-[#D4AF37] mb-6 md:mb-8">Yang akan kamu dapatkan:</h2><div className="grid sm:grid-cols-2 gap-4 md:gap-6 text-left">{outcomes.map((o, i) => (<div key={i} className="flex items-center gap-3 md:gap-4 bg-[#140506] border border-[#3a1013] p-4 rounded-xl"><CheckCircle className="w-5 h-5 md:w-6 md:h-6 text-green-500 shrink-0" /><span className="font-medium text-sm md:text-base text-white">{o}</span></div>))}</div></div></div>
     </section>
   );
